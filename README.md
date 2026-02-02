@@ -6,7 +6,7 @@ This project showcases services, projects, and contact information with smooth U
 ---
 
 ## 🚀 Live Preview
-👉 (Add your live link here if deployed)  
+👉 (https://kfizza1.github.io/Portfolio/)  
 ---
 
 ## ✨ Features
