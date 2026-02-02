@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Developer Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+  <h1>Eva<span>.</span></h1>
+  <div class="line"></div>
+</div>
+
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <span id="close">✕</span>
+    <span id="menu" class="material-symbols-outlined">menu</span>
+<h1 id="horizontal">Eva.</h1>
+    <div class="menu">
+      <h1>Eva.</h1>
+      <p>Frontend Developer</p>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+
+    <section class="hero">
+      <div class="top">
+      <img src="hero-bg.png" alt="">
+      </div>
+      <div class="left">
+      <h2>I build clean & modern websites.</h2>
+      <p>Focused on performance, responsiveness, and UI.</p>
+      <button aria-label="Hire Me" id="hireme">Hire Me</button>
+      </div>
+      <button id="dark">Dark<span class="material-symbols-outlined">dark_mode</span></button>
+      <div class="right"><img src="hero-bg.png" alt="">
+      </div>
+    </section>
+
+    <section id="about">
+      <h3>About Me</h3>
+      <p>
+        I’m a frontend developer specializing in HTML, CSS, JavaScript, and React.
+        I build fast, responsive, and user-friendly websites.
+      </p>
+    </section>
+
+    <section id="services">
+      <h3>What I Do</h3>
+      <div class="grid">
+        <div class="box">
+          <span class="material-symbols-outlined">campaign</span>
+          Landing Pages</div>
+        <div class="box">
+          <span class="material-symbols-outlined">work</span>
+          Portfolio Websites</div>
+        <div class="box">
+          <span class="material-symbols-outlined">mobile_layout</span>
+          Responsive Design</div>
+        <div class="box">
+          <span class="material-symbols-outlined">construction</span>
+          UI Fixes</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <div class="grid">
+        <div class="project">
+          <img src="Landing page.png" alt="">
+          Business Landing Page</div>
+          <div class="project">
+          <img src="Portfolio image.png" alt="">
+          Personal Portfolio</div>
+        <div class="project">
+          <img src="e-commerce image.png" alt="">
+          Product Website</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Email: example@gmail.com</p>
+    </section>
+
+  </main>
+    <form action="" id="form">
+      <span id="closeForm">X</span>
+      <h3>Send Me a Message</h3>
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" aria-label="Send Message">Send Message</button>
+    </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
